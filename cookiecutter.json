@@ -10,5 +10,6 @@
     "use_git": ["github", "gitlab", "none"],
     "use_logrus_logging": "y",
     "use_viper_config": "y",
-    "use_ci": ["travis", "circle", "gitlab", "none"]
+    "use_ci": ["travis", "circle", "gitlab", "none"],
+    "use_cobra_cmd": "y"
 }
