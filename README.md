@@ -15,7 +15,7 @@ Powered by [Cookiecutter](https://github.com/audreyr/cookiecutter), Cookiecutter
 - Can use [logrus](https://github.com/sirupsen/logrus) for logging
 - Can creates dockerfile for building go binary and dockerfile for final go binary (no code in final container)
 - If docker is used adds docker management commands to makefile
-- Option of TravisCI, CircleCI or None
+- Option of TravisCI, CircleCI, GitLab or None
 
 ## Constraints
 
@@ -65,7 +65,8 @@ use_viper_config [y]: y
 Select use_ci:
 1 - travis
 2 - circle
-3 - none
+3 - gitlab
+4 - none
 Choose from 1, 2, 3 [1]: 1
 ```
 
