@@ -1,4 +1,13 @@
-image: alpine:go?
+image: golang
 
-install: 
-  stage: 
+stages:
+  - build
+
+build: 
+  stage: build
+  script:
+    - go get -v github.com/Masterminds/glide
+    - make get-deps
+
+#install: 
+#  stage: 
