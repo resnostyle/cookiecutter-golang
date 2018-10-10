@@ -52,7 +52,7 @@ Warning: After this point, change 'Luis Morales', 'lacion', etc to your own info
 Answer the prompts with your own desired [options](). For example:
 ```console
 full_name [Luis Morales]: Luis Morales
-github_username [lacion]: lacion
+repo_username [lacion]: lacion
 app_name [mygolangproject]: echoserver
 project_short_description [A Golang project.]: Awesome Echo Server
 docker_hub_username [lacion]: lacion
