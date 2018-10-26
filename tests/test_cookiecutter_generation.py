@@ -22,7 +22,7 @@ def context():
         "docker_image": "lacion/docker-alpine:latest",
         "docker_build_image": "lacion/docker-alpine:gobuildimage",
         "use_docker": "y",
-        "use_git": "y",
+        "use_git": "github",
         "use_logrus_logging": "y",
         "use_viper_config": "y"
 }
