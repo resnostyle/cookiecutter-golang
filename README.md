@@ -78,7 +78,7 @@ Select use_ci:
 2 - circle
 3 - gitlab
 4 - none
-Choose from 1, 2, 3 [1]: 1
+Choose from 1, 2, 3, 4 [1]: 1
 ```
 
 Enter the project and take a look around:
